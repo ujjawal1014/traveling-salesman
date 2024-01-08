@@ -231,5 +231,13 @@ body {
     grid-row-start: 13;
     grid-row-end: 16; }
 
-
-
+.label-2{
+  margin-bottom: -10%;
+}
+.text-center{
+  margin-top: 5vw;
+  
+}
+html{
+  overflow: scroll;
+}
