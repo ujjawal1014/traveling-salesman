@@ -210,7 +210,6 @@ body.nav-active { overflow: hidden; }
 .headline-2,
 .title-1,
 .title-2,
-.title-3,
 .title-4 {
   color: var(--white);
   font-family: var(--fontFamily-forum);
@@ -234,7 +233,11 @@ body.nav-active { overflow: hidden; }
 
 .title-2 { font-size: var(--fontSize-title-2); }
 
-.title-3 { font-size: var(--fontSize-title-3); }
+.title-3 { font-size: var(--fontSize-title-3);
+color:whitesmoke; 
+font-family: var(--fontFamily-forum);
+font-weight: var(--weight-regular);
+line-height: var(--lineHeight-2);}
 
 .title-4 { font-size: var(--fontSize-title-4); }
 
@@ -1150,6 +1153,7 @@ body.nav-active { overflow: hidden; }
   margin-inline: auto;
   border-radius: var(--radius-circle);
   margin-block-end: 15px;
+  
 }
 
 .testi .profile-name {
