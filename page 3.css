@@ -2,7 +2,7 @@ body{
     background-color: #bbab86;
     overflow: hidden;
 }
-.container1{
+.container{
     position: absolute;
     left:50%;
     top:50%;
@@ -110,8 +110,8 @@ body{
     width:50px;
     height:50px;
     border-radius: 50%;
-    border:1px solid #d98880;
+    border:1px solid #edbb99;
     transition: 0.5s;
 }.buttons button:hover{
-    background-color: #cb4335;
+    background-color: #a93226;
 }
