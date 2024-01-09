@@ -327,7 +327,7 @@ line-height: var(--lineHeight-2);}
 }
 
 .section-subtitle::after {
-  content: url('../images/separator.svg');
+  content: url("../separator.svg");
   display: block;
   width: 100px;
   margin-inline: auto;
@@ -1006,7 +1006,7 @@ line-height: var(--lineHeight-2);}
 }
 
 .section.event.bg-black-10 {
-  background-image: url('../darkpots.png');
+  background-image: url(https://c1.wallpaperflare.com/preview/65/1009/276/pottery-container-clay.jpg);
   background-size: cover;
   background-position: center; 
 }
