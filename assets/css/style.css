@@ -922,7 +922,7 @@ line-height: var(--lineHeight-2);}
   transform: translateX(-50%);
   width: 140px;
   height: 100%;
-  background-image: url('../images/img-pattern.svg');
+  background-image: url('../bg-h.png');
   background-position: center;
   background-size: cover;
   background-repeat: repeat;
@@ -2159,4 +2159,7 @@ textarea.input-field {
   width: 30vw;
   display: flex;
   justify-content: space-between;
+}
+#about{
+  background-color: #8D7B68;
 }
