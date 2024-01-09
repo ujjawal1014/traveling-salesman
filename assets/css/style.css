@@ -1005,7 +1005,10 @@ line-height: var(--lineHeight-2);}
   animation: rotate360 15s linear infinite;
 }
 
-
+.section.event.bg-black-10 {
+  background-image: url(https://c1.wallpaperflare.com/preview/65/1009/276/pottery-container-clay.jpg);
+  background-size: cover;
+  background-position: center; 
 
 
 
