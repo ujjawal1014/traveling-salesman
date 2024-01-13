@@ -1,7 +1,7 @@
 # Mudberry Studios Website
 
 **Description:**
--🏺✨ Welcome to Mudberry Studios, our entry for the Google Winter of Code (GWOC) competition! Crafted by our dedicated team of four developers, this website showcases the creative synergy of HTML, CSS, and JavaScript to bring Mudberry Studios to life. Explore the world of pottery through a captivating home page, an integrated about us section, and dedicated pages for workshops and gallery. Engage with the artistic spirit, as our entry competes for recognition in the prestigious GWOC competition.
+-🏺✨ Welcome to Mudberry Studios, our entry for the Google Winter of Code (GWOC) competition! Crafted by our team The Travelling Salesmen, this website showcases the creative synergy of HTML, CSS, and JavaScript to bring Mudberry Studios to life. Explore the world of pottery through a captivating home page, an integrated about us section, and dedicated pages for workshops and gallery. Engage with the artistic spirit, as our entry competes for recognition in the prestigious GWOC competition.
 
 **Visit Mudberry Studios Online:**<br>
 <center><a href="https://ujjawal1014.github.io/traveling-salesman/">Live Demo</a></center>
