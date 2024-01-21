@@ -143,6 +143,10 @@ select,
 ion-icon,
 textarea { display: block; }
 
+img{
+  loading = "lazy";
+}
+
 a {
   color: inherit;
   text-decoration: none;
