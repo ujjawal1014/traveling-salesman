@@ -26,6 +26,7 @@ html {
 
 body {
   background-color:#331a00;
+  overflow:auto;
 }
 
 .gallery img:hover {
