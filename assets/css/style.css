@@ -1010,7 +1010,7 @@ line-height: var(--lineHeight-2);}
 }
 
 .section.event.bg-black-10 {
-  background-image: url('../min/IMG15.jpg');
+  background-image: url('IMG15.jpg');
   background-size: cover;
   background-position: center; 
 }
