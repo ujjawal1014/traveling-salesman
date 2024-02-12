@@ -144,7 +144,7 @@ ion-icon,
 textarea { display: block; }
 
 img{
-  loading = "lazy";
+  loading : "lazy";
 }
 
 a {
@@ -1136,31 +1136,42 @@ line-height: var(--lineHeight-2);}
   #TESTIMONIALS
 \*-----------------------------------*/
 
+@import url('https://kit.fontawesome.com/330edc4930.js');
+
 .testi {
-  padding-block-end: 340px;
-  position: static;
+ display: grid;
+ height: 100%;
+ place-items: center;
+ margin: 10px;
+ padding: 10px;
+ box-sizing: border-box;
 }
 
-.testi .quote {
-  font-size: 7rem;
+.wrapper .box i.quote {
+  font-size: 20px;
   font-family: var(--fontFamily-forum);
-  line-height: 0.7em;
 }
 
 .testi .wrapper {
+  max-width: 90%;
+  padding: 10px 20px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   gap: 2px;
   margin-block: 40px 50px;
 }
 
-.testi .separator { animation: rotate360 15s linear infinite; }
+.testi .wrapper .box {
+  background: #988b73;
+  border-radius: 3px;
+  padding: 25px;
+  width: 23%;
+  margin: 10px;
+}
 
-.profile .img {
-  margin-inline: auto;
-  border-radius: var(--radius-circle);
-  margin-block-end: 15px;
-  
+.testi .wrapper :hover{
+  scale: 1.1;
 }
 
 .testi .profile-name {
