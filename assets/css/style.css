@@ -2179,7 +2179,7 @@ textarea.input-field {
   background-color: #8D7B68;
 }
 
-@media (min-width:200px) and (max-width:820px){
+@media (min-width:200px) and (max-width:1200px){
 .testi .wrapper {
   max-width: 90%;
   padding: 10px 20px;
