@@ -2178,3 +2178,28 @@ textarea.input-field {
 #about{
   background-color: #8D7B68;
 }
+
+@media (min-width:200px) and (max-width:820px){
+.testi .wrapper {
+  max-width: 90%;
+  padding: 10px 20px;
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+  margin-block: 40px 50px;
+  margin-left: 12vw;
+}
+
+
+
+.testi .wrapper .box {
+  background: #988b73;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 25px;
+  width: 23%;
+  margin: 10px;
+  width: 60vw;
+}
+  
+}
