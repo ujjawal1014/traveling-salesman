@@ -2187,7 +2187,6 @@ textarea.input-field {
   align-self: center;
   justify-self: center;
   margin-block: 40px 50px;
-  margin-left: 12vw;
 }
 
 
@@ -2199,7 +2198,7 @@ textarea.input-field {
   padding: 25px;
   width: 23%;
   margin: 10px;
-  width: 60vw;
+  width: 75vw;
 }
   
 }
