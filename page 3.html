@@ -22,13 +22,13 @@
 
   <!-- 
           - #PRELOADER
-       
+       -->
       
         <div class="preload" data-preaload>
           <div class="circle"></div>
           <p class="text">MUDBERRY</p>
         </div>
-       -->
+       
 
 
 
@@ -92,13 +92,13 @@
 
       <nav class="navbar" data-navbar>
 
-        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+        <button id="closeButton" class="close-btn" aria-label="close menu" data-nav-toggler>
           <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
         </button>
 
         <a href="#" class="logo">
           <img class="logo_main_image" src="assets/SGL3mZVLjfuQt03NzxEeX.png" width="190" height="70"
-            alt="Grilli - Home">
+            alt="Mudberry - Home">
         </a>
 
         <ul class="navbar-list">
@@ -178,7 +178,7 @@
               align-items: center !important;" width="32" alt="booking icon">Book Now</span>
       </a> 
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+      <button id="sidebarButton" class="nav-open-btn" aria-label="open menu" data-nav-toggler>
         <span class="line line-1"></span>
         <span class="line line-2"></span>
         <span class="line line-3"></span>
@@ -195,23 +195,23 @@
       <div id="slide">
         <div class="item" style="background-image: url(https://ik.imagekit.io/2xyjotrev/IMG_4771.jpg);">
           <div class="content">
-            <div class="name">Hand Building Techniques Course</div>
+            <div class="name">Hand Building<br> Techniques <br>Course</div>
             <div class="des">
-              <p>- Tailored for creative minds.</p>
-              <p> - Emphasizes creativity with basic tools and clay.</p>
-              <p> - Suited for students, sculptors, homemakers.</p>
-              <p> - Includes animal sculpture and mask-making lectures.</p>
+              <p>- Tailored for creative <br>minds.</p>
+              <p> - Emphasizes creativity <br>with basic tools and clay.</p>
+              <p> - Suited for students,<br> sculptors, homemakers.</p>
+              <p> - Includes animal sculpture<br> and mask-making lectures.</p>
             </div>
 
           </div>
         </div>
         <div class="item" style="background-image: url(https://ik.imagekit.io/2xyjotrev/IMG_4846.jpg);">
           <div class="content">
-            <div class="name">One-Month Introduction Course (₹8000):</div>
+            <div class="name">One-Month<br> Introduction Course<br> (₹8000):</div>
             <div class="des">
-              <p>- Comprehensive exploration of wheel and hand-building techniques.</p>
-              <p> - 12 sessions (6 hand building, 6 wheel throwing).</p>
-              <p> - Materials/tools provided; firing charges based on produced work.</p>
+              <p>- Comprehensive exploration<br> of wheel and hand-building<br> techniques.</p>
+              <p> - 12 sessions (6 hand <br>building, 6 wheel throwing).</p>
+              <p> - Materials/tools provided;<br> firing charges based on<br> produced work.</p>
               <p> - Suitable for all skill levels.</p>
             </div>
 
@@ -219,11 +219,11 @@
         </div>
         <div class="item" style="background-image: url(https://ik.imagekit.io/2xyjotrev/IMG_4985.jpg);">
           <div class="content">
-            <div class="name">Advanced Courses:</div>
+            <div class="name">Advanced <br>Courses:</div>
             <div class="des">
-              <p>- Progress after introductory course.</p>
-              <p> - In-depth exploration, flexible duration.</p>
-              <p>- Tailored to individual skill goals.</p>
+              <p>- Progress after introductory<br> course.</p>
+              <p> - In-depth exploration, <br>flexible duration.</p>
+              <p>- Tailored to individual<br> skill goals.</p>
             </div>
 
           </div>
@@ -232,28 +232,28 @@
           <div class="content">
             <div class="name">Private Pottery Sessions (₹1000/person):*</div>
             <div class="des">
-              <p>- One-hour personalized clay sessions.</p>
-              <p>- Covers hand-built techniques and personalization.</p>
+              <p>- One-hour personalized<br> clay sessions.</p>
+              <p>- Covers hand-built <br>techniques and <br>personalization.</p>
               <p>- Materials/tools included.</p>
-              <p>- Discounts for groups (₹900 each for 4, ₹800 each for 9+).</p>
+              <p>- Discounts for groups (₹900 <br>each for 4, ₹800<br> each for 9+).</p>
             </div>
 
           </div>
         </div>
-        <div class="item" style="background-image: url(IMG14.jpeg);">
+        <div class="item" style="background-image: url(https://ik.imagekit.io/2xyjotrev/IMG_8490.JPG);">
           <div class="content">
             <div class="name">Availability:</div>
             <div class="des">
-              <p>- Weekdays: 3 pm - 4 pm, 6 pm - 7 pm, 7 pm - 8 pm (excluding Wednesdays).</p>
-              <p>- Sundays: 11 am - 6 pm (flexible hours).</p>
-              <p>- Advance booking essential (confirmation charge: ₹1000).</p>
+              <p>- Weekdays: 3 pm - 4 pm,<br> 6 pm - 7 pm, 7 pm - 8 pm<br> (excluding Wednesdays).</p>
+              <p>- Sundays: 11 am - 6 pm<br> (flexible hours).</p>
+              <p>- Advance booking essential<br> (confirmation charge: ₹1000).</p>
             </div>
 
           </div>
         </div>
 
       </div>
-      <div class="buttons">
+      <div class="buttons" id="buttonContainer">
         <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
         <button id="next"><i class="fa-solid fa-angle-right"></i></button>
       </div>
@@ -269,12 +269,12 @@
  <!-- 
     - #BOOK NOW
   -->
-  <a href="tel:+919099747799" target="_blank" class="hero-btn has-after"
+  <!-- <a href="tel:+919099747799" target="_blank" class="hero-btn has-after"
   onmouseover="this.href='https://wa.me/919099747799'" onmouseout="this.href='tel:+919099747799'">
   <img src="whatsapp.png" width="48" height="48" alt="booking icon">
 
   <span class="label-2 text-center span">Book Now</span>
-  </a>
+  </a> -->
 
 
 
